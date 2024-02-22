@@ -1,0 +1,79 @@
+
+.total-container{
+  width:40vw;
+  height:auto;
+  border:2px solid red;
+  margin: auto;
+}
+.total-container h1,.play-list-name{
+  text-align: center;
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: underline;
+  color:rgb(70, 20, 220)
+}
+.total-container input{
+  height:10vh;
+  /* padding:50px; */
+  /* border:2px solid pink; */
+  font-size: 1.5rem;
+  /* padding-left: 6rem; */
+  margin: 1.4rem;
+}
+.audio-image{
+  width:35vw;
+  height:30vh;
+}
+
+.audio-player-container {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #dff185;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.now-playing-img {
+  margin-top: 10px;
+  
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+ul.playlist {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.track-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  .total-container {
+    width: 150vw !important;
+    /* background-color: #282c34; */
+  }
+  .audio-image{
+    width:85vw;
+    height:30vh;
+  }
+
+  .audio-player-container {
+    width: 100vw;
+  }
+}
+
